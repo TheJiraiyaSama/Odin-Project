@@ -2,6 +2,7 @@
   "name": "Odin-Project",
   "version": "1.0.0",
   "description": "\"Profile Project\"",
+  "type": "module",
   "main": "index.js",
   "repository": "git@github.com:TheJiraiyaSama/Odin-Project.git",
   "scripts": {
