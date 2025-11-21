@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
-import App from './app.jsx'
+import App from '../../src/App.jsx'
 
 describe('App', () => {
   it('renders the app and displays initial count of 0', () => {
