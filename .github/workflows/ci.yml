@@ -20,7 +20,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: false
     - run: yarn install --frozen-lockfile
     - run: yarn lint
     - run: yarn test --run
